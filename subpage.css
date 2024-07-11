@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2b2f4b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+
+#main{
+    height: 150vh;
+    width: 100%;
+}
+
+.form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.email-inp{
+    margin-top: 5vh;
+    /* padding: 1.3vh 1.5vh; */
+    /* width: 220px; */
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+}
+
+.email-inp::placeholder{
+    color: #dddfe2;
+    font-size: 2vh;
+}
+
+.pass-inp{
+    margin-top: 19px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin-bottom: 13px;
+}
+
+.pass-inp::placeholder{
+    color: #dddfe2;
+    font-size: 2vh;
+}
+
+label{
+    margin-top: 4px;
+    float: left;
+    margin-bottom: 2vh;
+}
+
+label span{
+    font-size: 19px;
+    margin-left: 3px;
+}
+
+#btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    border: 1px solid transparent;
+    padding: 10px 50px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 6px;
+    transition: all .4s ease;
+    cursor: pointer;
+    margin-top: 5vh;
+    margin-left: -15.1vh;
+}
+
+#btn:hover{
+    box-shadow: none;
+    border-color: #fff;
+}
